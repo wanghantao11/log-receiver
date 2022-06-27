@@ -1,1 +1,1 @@
-# log-receiver
+Log Receiver Service
