@@ -1,14 +1,15 @@
 package log
 
 import (
-	"github.com/google/uuid"
 	"time"
+
+	"github.com/google/uuid"
 )
 
-// swagger:model
+// Log DB schema
 type Log struct {
-	ID uuid.UUID `json:"id"`
-	L  string    `json:"l"`
-	M  string    `json:"m"`
-	T  time.Time `json:"t"`
+	ID uuid.UUID
+	L  string
+	M  string
+	T  time.Time
 }

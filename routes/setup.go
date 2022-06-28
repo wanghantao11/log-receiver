@@ -2,6 +2,7 @@ package routes
 
 import (
 	"github.com/labstack/echo"
+
 	"github.com/wanghantao11/log-receiver/internal/pkg/log"
 )
 
